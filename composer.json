@@ -1,5 +1,5 @@
 {
-    "name": "lab123/lumen-vendor-publish",
+    "name": "danielhe4rt/lumen-vendor-publish",
     "description": "Command for publish vendor configs to Lumen 5.x",
     "homepage": "https://github.com/lab123/lumen-vendor-publish",
     "license": "MIT",
