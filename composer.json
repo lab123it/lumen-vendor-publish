@@ -9,6 +9,12 @@
             "email": "jean.pierre@lab123.com.br",
             "homepage": "http://lab123.com.br",
             "role": "Developer"
+        },  
+        {
+            "name": "Daniel Reis",
+            "email": "daniel.reis@lab123.com.br",
+            "homepage": "http://lab123.com.br",
+            "role": "Developer"
         }
     ],
     "require": {
