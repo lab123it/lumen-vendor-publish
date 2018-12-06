@@ -1,0 +1,38 @@
+{
+    "name": "lab123/lumen-vendor-publish",
+    "description": "Command for publish vendor configs to Lumen 5.x",
+    "homepage": "https://github.com/lab123/lumen-vendor-publish",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jean Pierre",
+            "email": "jean.pierre@lab123.com.br",
+            "homepage": "lab123.com.br",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "illuminate/support": "^5.7"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LumenVendorPublish\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LumenVendorPublish\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
